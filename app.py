@@ -5,10 +5,10 @@ import socket
 import random
 import json
 
-option_a = os.getenv('OPTION_A', "ArgoCD")
-option_b = os.getenv('OPTION_B', "FluxCD")
+option_a = os.getenv('OPTION_A', "Docker")
+option_b = os.getenv('OPTION_B', "Podman")
 hostname = socket.gethostname()
-version = 'v0.3.0'
+version = 'v0.3.1'
 
 app = Flask(__name__)
 
