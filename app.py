@@ -5,10 +5,10 @@ import socket
 import random
 import json
 
-option_a = os.getenv('OPTION_A', "Docker")
-option_b = os.getenv('OPTION_B', "Podman")
+option_a = os.getenv('OPTION_A', "Kasauli")
+option_b = os.getenv('OPTION_B', "Shimla")
 hostname = socket.gethostname()
-version = 'v0.3.1'
+version = 'v0.3.2'
 
 app = Flask(__name__)
 
